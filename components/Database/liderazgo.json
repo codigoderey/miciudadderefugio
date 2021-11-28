@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "module": "Introducción",
+    "part": "Introducción al liderazgo cristiano",
+    "videoLink": "https://www.youtube-nocookie.com/embed/46htpP7j5fw",
+    "docxLecture": "/assets/liderazgo/materials/introduccion/lectura-estudiante-introduccion-liderazgo-cristiano.docx",
+    "docxManual": "/assets/liderazgo/materials/introduccion/manual-estudiante-introduccion-liderazgo-cristiano.docx",
+    "ppt": "/assets/liderazgo/materials/introduccion/introduccion-liderazgo-cristiano.pptx"
+  },
+  {
+    "id": 2,
+    "module": "Relaciones",
+    "part": "Mi yo",
+    "videoLink": "https://www.youtube-nocookie.com/embed/aIF_YDGAC2Y",
+    "docxLecture": "/assets/liderazgo/materials/miyo/lectura-estudiante-miyo-liderazgo-cristiano.docx",
+    "docxManual": "/assets/liderazgo/materials/miyo/manual-estudiante-miyo-liderazgo-cristiano.docx",
+    "ppt": "/assets/liderazgo/materials/miyo/miyo-liderazgo-cristiano.pptx"
+  },
+  {
+    "id": 3,
+    "module": "Relaciones",
+    "part": "Encontrando mi propósito",
+    "videoLink": "https://www.youtube.com/embed/Ns-7EGRsoPI",
+    "docxLecture": "/assets/liderazgo/materials/encontrandoproposito/lectura-estudiante-encontrandoproposito.docx",
+    "docxManual": "/assets/liderazgo/materials/encontrandoproposito/manual-estudiante-encontrandoproposito.docx",
+    "ppt": "/assets/liderazgo/materials/miyo/encontrandoproposito/encontrando-mi-propósito.pptx"
+  },
+  {
+    "id": 4,
+    "module": "Relaciones",
+    "part": "El fin de mi propósito",
+    "videoLink": "https://www.youtube.com/embed/Pj91A0DqU4Y",
+    "docxLecture": "/assets/liderazgo/materials/findemiproposito/lectura-estudiante-finproposito-liderazgo-cristiano.docx",
+    "docxManual": "/assets/liderazgo/materials/findemiproposito/manual-estudiante-finproposito-liderazgo-cristiano.docx",
+    "ppt": "/assets/liderazgo/materials/miyo/findemiproposito/finproposito.pptx"
+  }
+]

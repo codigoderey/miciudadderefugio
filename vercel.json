@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "env": {
+    "MONGO_DB": "mongodb+srv://rnavedojr:RvCrY5f@website.gbmes.mongodb.net/ciudadderefugio?authSource=admin&replicaSet=atlas-nv984u-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true",
+    "JWT": "sfigurfkjilasdfohuigbasjdnfcliasouef",
+    "SENDGRID_API": "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",
+    "MAILCHIMP": "1b943165e96a2d51a27522d0756751f1-us1"
+  }
+}

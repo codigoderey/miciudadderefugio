@@ -1,0 +1,261 @@
+[
+  {
+    "id": "1",
+    "titulo": "2 Corintios 2.1-5",
+    "autor": "Reynaldo Navedo",
+    "almacen": "/assets/audio/2-corintios-2.1-5-reynaldo.mp3",
+    "duracion": "46:20"
+  },
+  {
+    "id": "2",
+    "titulo": "2 Corintios 2.5-11",
+    "autor": "Reynaldo Navedo",
+    "almacen": "/assets/audio/2-corintios-2.5-11-reynaldo.mp3",
+    "duracion": "48:23"
+  },
+  {
+    "id": "3",
+    "titulo": "2 Corintios 4",
+    "autor": "Reynaldo Navedo",
+    "almacen": "/assets/audio/2-corintios-4-reynaldo.mp3",
+    "duracion": "42:22"
+  },
+  {
+    "id": "4",
+    "titulo": "A la manera de Dios",
+    "autor": "Pastora Norma Gonzáles",
+    "almacen": "/assets/audio/a-la-manera-de-dios-pastora-norma.mp3",
+    "duracion": "43:20"
+  },
+  {
+    "id": "5",
+    "titulo": "Acciona tu fe",
+    "autor": "Pastora Emelinda",
+    "almacen": "/assets/audio/acciona-tu-fe-pastora-emelinda.mp3",
+    "duracion": "38:38"
+  },
+  {
+    "id": "6",
+    "titulo": "Acciones contra el conflicto",
+    "autor": "Carlos Santillán",
+    "almacen": "/assets/audio/acciones-contra-el-conflicto-carlos-santillan.mp3",
+    "duracion": "36:29"
+  },
+  {
+    "id": "7",
+    "titulo": "Cualidades de un líder - Amor, Pasión y Gratitud",
+    "autor": "Reynaldo Navedo",
+    "almacen": "/assets/audio/amor-pasión-gratitud-por-reynaldo.mp3",
+    "duracion": "25:32"
+  },
+  {
+    "id": "8",
+    "titulo": "El lavado de pies y su significado",
+    "autor": "Pastora Saida Rubio",
+    "almacen": "/assets/audio/el-lavado-de-pies-pastora-saida.mp3",
+    "duracion": "28:17"
+  },
+  {
+    "id": "9",
+    "titulo": "Enfrenta el gigante",
+    "autor": "Pastor Milton Hernández",
+    "almacen": "/assets/audio/enfrenta-el-gigante-pastor-milton.mp3",
+    "duracion": "59:51"
+  },
+  {
+    "id": "10",
+    "titulo": "Entrada triunfal",
+    "autor": "Pastor Omar Quiñones",
+    "almacen": "/assets/audio/entrada-triunfal-pastor-omar.mp3",
+    "duracion": "49:12"
+  },
+  {
+    "id": "11",
+    "titulo": "Perseverancia y resistencia",
+    "autor": "Pastora Saida Rubio",
+    "almacen": "/assets/audio/perseverancia-y-resistencia-pastora-saida.mp3",
+    "duracion": "40:00"
+  },
+  {
+    "id": "12",
+    "titulo": "Porque Dios lo quizo así",
+    "autor": "Pastor Richard Piette",
+    "almacen": "/assets/audio/porque-dios-asi-lo-quizo-richard-piette.mp3",
+    "duracion": "30:45"
+  },
+  {
+    "id": "13",
+    "titulo": "¿Qué impacto estás haciendo?",
+    "autor": "Pastor Omar Quiñones",
+    "almacen": "/assets/audio/que-impacto-estamos-haciendo-pastor-omar.mp3",
+    "duracion": "41:35"
+  },
+  {
+    "id": "14",
+    "titulo": "¿Quién eres cuando Dios no te ve?",
+    "autor": "Pastor Milton Hernández",
+    "almacen": "/assets/audio/quien-eres-cuando-dios-no-te-ve-pastor-milton.mp3",
+    "duracion": "1:01:21"
+  },
+  {
+    "id": "15",
+    "titulo": "Sal del desempleo",
+    "autor": "Pastora Norma Gonzáles",
+    "almacen": "/assets/audio/sal-del-desempleo-pastora-norma.mp3",
+    "duracion": "47:00"
+  },
+  {
+    "id": "16",
+    "titulo": "¿Señor, qué hago?",
+    "autor": "Pastora Carmen",
+    "almacen": "/assets/audio/senor-que-hago-pastora-carmen-corrales.mp3",
+    "duracion": "41:52"
+  },
+  {
+    "id": "17",
+    "titulo": "Parte de mi testimonio",
+    "autor": "María",
+    "almacen": "/assets/audio/testimonio-hermana-maria.mp3",
+    "duracion": "37:59"
+  },
+  {
+    "id": "18",
+    "titulo": "Transferencia de espíritus",
+    "autor": "Pastora Saida Rubio",
+    "almacen": "/assets/audio/transferencia-de-espiritus-pastora-saida.mp3",
+    "duracion": "37:59"
+  },
+  {
+    "id": "19",
+    "titulo": "Vence tus malos pensamientos",
+    "autor": "Sandra Castro",
+    "almacen": "/assets/audio/vence-tus-malos-pensamientos-sandra-castro.mp3",
+    "duracion": "56:35"
+  },
+  {
+    "id": "20",
+    "titulo": "El tiempo que estamos viviendo",
+    "autor": "Pastor Omar Quiñones",
+    "almacen": "/assets/audio/tiempo-estamos-viviendo-por-pastor-omar.mp3",
+    "duracion": "45:56"
+  },
+  {
+    "id": "21",
+    "titulo": "Nuestro presente no se compara con nuestro futuro",
+    "autor": "Reynaldo Navedo",
+    "almacen": "/assets/audio/presente-no-compara-con-futuro-por-reynaldo.mp3",
+    "duracion": "38:29"
+  },
+  {
+    "id": "22",
+    "titulo": "El hombre y la mujer que Dios busca",
+    "autor": "Pastor Omar Quiñones",
+    "almacen": "/assets/audio/el-hombre-y-la-mujer-que-dios-busca.mp3",
+    "duracion": "45:56"
+  },
+  {
+    "id": "23",
+    "titulo": "El amor no siempre se siente bien",
+    "autor": "Reynaldo Navedo",
+    "almacen": "/assets/audio/el-amor-no-siempre-se-siente-bien-reynaldo-gigi.mp3",
+    "duracion": "45:56"
+  },
+  {
+    "id": "24",
+    "titulo": "Seamos recipientes de Su gracia",
+    "autor": "Evangelista Luis Perona",
+    "almacen": "/assets/audio/recipientes-de-su-gracia-luis-perona.mp3",
+    "duracion": "57:50"
+  },
+  {
+    "id": "25",
+    "titulo": "Conductas y acciones de Jonás que debemos evitar",
+    "autor": "Giselle Hernandez",
+    "almacen": "/assets/audio/conductas-acciones-jonas-debemos-evitar.mp3",
+    "duracion": "45:02"
+  },
+  {
+    "id": "26",
+    "titulo": "Testimonio de sanidad",
+    "autor": "Pastora Marilyn Irizarry",
+    "almacen": "/assets/audio/testimonio-sanidad-pastora-marilyn.mp3",
+    "duracion": "15:21"
+  },
+  {
+    "id": "27",
+    "titulo": "Prédica especial del día de los padres",
+    "autor": "Pastora Marilyn Irizarry",
+    "almacen": "/assets/audio/prédica-especial-dia-padres-marylin.mp3",
+    "duracion": "29:25"
+  },
+  {
+    "id": "28",
+    "titulo": "El propósito de Dios para nuestra vida",
+    "autor": "Pastor Omar Quiñones",
+    "almacen": "/assets/audio/el-proposito-de-dios-para-nuestra-vida-pastor-omar.mp3",
+    "duracion": "40:04"
+  },
+  {
+    "id": "29",
+    "titulo": "4 Inhabilidades que afectan el cuerpo de Cristo",
+    "autor": "Reynaldo Navedo",
+    "almacen": "/assets/audio/4-inhabilidades-que-afectan-reynaldo.mp3",
+    "duracion": "1:01:00"
+  },
+  {
+    "id": "30",
+    "titulo": "Las amonestaciones de parte de Dios",
+    "autor": "Cirse Ambrosio",
+    "almacen": "/assets/audio/amonestaciones-de-parte-de-dios.mp3",
+    "duracion": "41:06"
+  },
+  {
+    "id": "31",
+    "titulo": "Persevera, se fiel y obediente",
+    "autor": "Pastora Saida Rubio",
+    "almacen": "/assets/audio/persevera-fiel-obediente-saida.mp3",
+    "duracion": "34:06"
+  },
+  {
+    "id": "32",
+    "titulo": "Hay que pelear",
+    "autor": "Pastor Roberto Ortiz",
+    "almacen": "/assets/audio/hay-que-pelear-roberto-ortiz.mp3",
+    "duracion": "52:12"
+  },
+  {
+    "id": "33",
+    "titulo": "Examina tus redes",
+    "autor": "Pastora Saida Rubio",
+    "almacen": "/assets/audio/arregla-tus-redes-por-pastora-saida.mp3",
+    "duracion": "50:05"
+  },
+  {
+    "id": "34",
+    "titulo": "Oración sin egoísmo",
+    "autor": "Reynaldo Navedo",
+    "almacen": "/assets/audio/el-padre-nuestro-por-reynaldo.mp3",
+    "duracion": "35:26"
+  },
+  {
+    "id": "35",
+    "titulo": "Eres creación con propósito",
+    "autor": "Cirse Ambrosio",
+    "almacen": "/assets/audio/eres-creacion-con-proposito.mp3",
+    "duracion": "31:09"
+  },
+  {
+    "id": "36",
+    "titulo": "No te dejes engañar",
+    "autor": "Pastor Omar Quiñones",
+    "almacen": "/assets/audio/no-te-dejes-engañar.mp3",
+    "duracion": "51:20"
+  },
+  {
+    "id": "37",
+    "titulo": "Un encuentro con Dios",
+    "autor": "Pastora Carmen Corrales",
+    "almacen": "/assets/audio/un-encuentro-con-dios-pastora-carmen.mp3",
+    "duracion": "49:16"
+  }
+]

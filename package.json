@@ -1,0 +1,39 @@
+{
+  "name": "zimed",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.36",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "js-cookie": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^5.13.7",
+    "next": "^10.0.8",
+    "next-pwa": "^5.4.0",
+    "node-sass": "^4.13.1",
+    "nodemailer": "^6.6.3",
+    "nookies": "^2.5.2",
+    "react": "16.13.1",
+    "react-countup": "^4.3.3",
+    "react-dom": "16.13.1",
+    "react-id-swiper": "^3.0.0",
+    "react-modal-video": "^1.2.3",
+    "react-moment": "^1.1.1",
+    "react-visibility-sensor": "^5.1.1",
+    "sweetalert2": "^11.1.4",
+    "swiper": "^5.3.6"
+  },
+  "devDependencies": {
+    "url-loader": "^4.0.0"
+  }
+}
