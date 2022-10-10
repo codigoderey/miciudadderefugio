@@ -257,5 +257,19 @@
     "autor": "Pastora Carmen Corrales",
     "almacen": "/assets/audio/un-encuentro-con-dios-pastora-carmen.mp3",
     "duracion": "49:16"
+  },
+  {
+    "id": "38",
+    "titulo": "El reino de Dios",
+    "autor": "Pastora Saida Rubio",
+    "almacen": "/assets/audio/el-reino-de-Dios-pastora-saida.mp3",
+    "duracion": "50:16"
+  },
+  {
+    "id": "39",
+    "titulo": "El honrar a Dios sobre todas las cosas",
+    "autor": "Pastora Norma Gonzáles",
+    "almacen": "/assets/audio/honrar-a-dios-sobre-todo-por-norma-gonzalez.mp3",
+    "duracion": "1:08:13"
   }
 ]

@@ -239,12 +239,12 @@ const NuevoEvento = ({ user }) => {
               />
             </div>
             <div onClick={() => createNuevoDiaHora()} className="btn btn-success mt-2 mb-3 mr-3">
-              <i className="fas fa-plus"></i>
+              <i className="fas fa-plus mr-1"></i>
               Añadir otro día y hora
             </div>
 
             <div onClick={() => removeRegistrantField(i)} className="btn btn-danger mt-2 mb-3">
-              <i className="fas fa-plus"></i>
+              <i className="fas fa-minus mr-1"></i>
               Remover un día y hora
             </div>
           </div>
