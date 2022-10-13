@@ -1,49 +1,49 @@
-import React from 'react';
-import Head from 'next/head';
-import Layout from '../../components/Layout';
-import PageHeader from '../../components/PageHeader';
-import axios from 'axios';
-import baseURL from '../../utils/baseURL';
-import Link from 'next/link';
-import Moment from 'react-moment';
-import Swal from 'sweetalert2';
-import 'moment-timezone';
-import 'moment/locale/es';
+import React from "react";
+import Head from "next/head";
+import Layout from "../../components/Layout";
+import PageHeader from "../../components/PageHeader";
+import axios from "axios";
+import baseURL from "../../utils/baseURL";
+import Link from "next/link";
+import Moment from "react-moment";
+import Swal from "sweetalert2";
+import "moment-timezone";
+import "moment/locale/es";
 
 const IndexEventos = ({ eventos, user }) => {
-	const callToDeleteEvent = id => {
+	const callToDeleteEvent = (id) => {
 		Swal.fire({
-			icon: 'question',
-			title: '¿Confirma eliminar evento?',
+			icon: "question",
+			title: "¿Confirma eliminar evento?",
 			showConfirmButton: true,
-			confirmButtonText: 'Eliminar',
-			confirmButtonColor: 'rgb(64, 6, 144)',
-			cancelButtonText: 'Cancelar',
-			showCloseButton: true,
-		}).then(result => {
+			confirmButtonText: "Eliminar",
+			confirmButtonColor: "rgb(64, 6, 144)",
+			cancelButtonText: "Cancelar",
+			showCloseButton: true
+		}).then((result) => {
 			if (result.isConfirmed) {
 				deleteEvent(id);
 				Swal.fire({
-					icon: 'success',
-					title: 'Evento eliminado exitosamente.',
+					icon: "success",
+					title: "Evento eliminado exitosamente.",
 					showCloseButton: false,
-					showConfirmButton: false,
+					showConfirmButton: false
 				});
 				setTimeout(() => {
 					window.location.reload();
 				}, 1500);
 			} else if (result.isDenied || result.isDismissed) {
 				Swal.fire({
-					icon: 'info',
-					title: 'El evento no ha sido eliminado.',
+					icon: "info",
+					title: "El evento no ha sido eliminado.",
 					showCloseButton: true,
-					showConfirmButton: false,
+					showConfirmButton: false
 				});
 			}
 		});
 	};
 
-	const deleteEvent = async id => {
+	const deleteEvent = async (id) => {
 		await axios.delete(`${baseURL}/api/eventos`, { params: { id: id } });
 	};
 	return (
@@ -67,7 +67,7 @@ const IndexEventos = ({ eventos, user }) => {
 							{eventos.length === 0 ? (
 								<p className="mt-3">No hay eventos por el momento.</p>
 							) : null}
-							{eventos.map(e => (
+							{eventos.map((e) => (
 								<div key={e._id} className="col-12 rounded border my-3 p-0">
 									<div className="evento">
 										<div className="evento__image-container">
@@ -80,8 +80,8 @@ const IndexEventos = ({ eventos, user }) => {
 										<div className="evento__content p-3">
 											<div className="bg-success rounded text-white p-2 mb-2">
 												<p className="mb-0">
-													<strong>Costo:</strong>{' '}
-													{e.costoDelEvento === 'Gratis'
+													<strong>Costo:</strong>{" "}
+													{e.costoDelEvento === "Gratis"
 														? `${e.costoDelEvento}`
 														: `$${e.costoDelEvento}`}
 												</p>
@@ -101,15 +101,14 @@ const IndexEventos = ({ eventos, user }) => {
 													la Iglesia Ciudad de Refugio.
 												</div>
 												<div
-													className="audio_autor mr-3 
-                        mb-0"
-												>
+													className="audio_autor mr-3
+                        mb-0">
 													<strong>Lugar:</strong> {e.lugar}
 												</div>
 												<div>
 													<strong>Dia(s) y hora(s) del evento:</strong>
 												</div>
-												{e.fechasYHorasDelEvento.map(fh => (
+												{e.fechasYHorasDelEvento.map((fh) => (
 													<div key={fh._id}>
 														<span className="mr-3">
 															<strong>Día: </strong>
@@ -134,7 +133,6 @@ const IndexEventos = ({ eventos, user }) => {
 												</p>
 												<p className="mb-0">{e.descripcionDelEvento}</p>
 												<div className="d-flex align-items-center justify-content-between">
-													{console.log(e.registrados.length)}
 													{e.registrados.length >= e.cantidadDisponible ? (
 														<div className="alert alert-danger mt-3">
 															Este evento ha alcanzado su capacidad.
@@ -147,12 +145,18 @@ const IndexEventos = ({ eventos, user }) => {
 														</Link>
 													)}
 													{user ? (
-														<span
-															className="text-danger hoverable"
-															onClick={() => callToDeleteEvent(e._id)}
-														>
-															Eliminar evento
-														</span>
+														<div className="d-flex flex-column border rounded p-2 mt-3">
+															<span
+																className="text-danger hoverable"
+																onClick={() => callToDeleteEvent(e._id)}>
+																Eliminar evento
+															</span>
+															{/* <a
+																href={`/eventos/actualizar/${e._id}`}
+																className="text-warning hoverable">
+																Actualizar evento
+															</a> */}
+														</div>
 													) : null}
 												</div>
 											</div>
