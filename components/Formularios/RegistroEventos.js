@@ -69,7 +69,8 @@ const NuevoEvento = ({ evento }) => {
 			onSubmit={handleFormSubmit}
 			className="footer-widget__mc-form mc-form w-100 m-75">
 			{registrante.map((r, i) => (
-				<div key={i} className="mb-3 border border-primary p-3 rounded">
+				<div key={i} className="mb-3 border border-secondary p-3 rounded">
+					<h3>Información General</h3>
 					<div>
 						<label className="mb-0" htmlFor="nombre">
 							Nombre del registrante:
@@ -112,7 +113,8 @@ const NuevoEvento = ({ evento }) => {
 						/>
 					</div>
 
-					<div className="border border-secondary rounded p-3">
+					<div className="rounded">
+						<h3>Dirección</h3>
 						<div className="mb-3">
 							<label className="mb-0" htmlFor="direccionCalle">
 								Calle:
@@ -171,7 +173,7 @@ const NuevoEvento = ({ evento }) => {
 					</div>
 					<div
 						onClick={() => addNewRegistrant()}
-						className="btn btn-success mt-2 mb-3 mr-2">
+						className="btn btn-success mt-3 mr-2">
 						<i className="fas fa-plus mr-1"></i>
 						Añadir otro participante.
 					</div>
