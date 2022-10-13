@@ -180,7 +180,7 @@ const NuevoEvento = ({ evento }) => {
 					{registrante.length > 1 && (
 						<div
 							onClick={() => removeRegistrantField(i)}
-							className="btn btn-danger mt-2 mb-3">
+							className="btn btn-danger mt-3">
 							<i className="fas fa-minus mr-1"></i>
 							Remover
 						</div>
