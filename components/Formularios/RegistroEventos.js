@@ -69,13 +69,13 @@ const NuevoEvento = ({ evento }) => {
 			onSubmit={handleFormSubmit}
 			className="footer-widget__mc-form mc-form w-100 m-75">
 			{registrante.map((r, i) => (
-				<div key={i} className="mb-3">
+				<div key={i} className="mb-3 border border-primary p-3 rounded">
 					<div>
 						<label className="mb-0" htmlFor="nombre">
 							Nombre del registrante:
 						</label>
 						<input
-							className="border border-primary"
+							className="border"
 							onChange={(e) => handleInputChange(e, i)}
 							type="text"
 							name="nombre"
@@ -89,7 +89,7 @@ const NuevoEvento = ({ evento }) => {
 							Teléfono:
 						</label>
 						<input
-							className="border border-primary"
+							className="border"
 							onChange={(e) => handleInputChange(e, i)}
 							type="text"
 							name="telefono"
@@ -103,7 +103,7 @@ const NuevoEvento = ({ evento }) => {
 							Correo:
 						</label>
 						<input
-							className="border border-primary"
+							className="border"
 							onChange={(e) => handleInputChange(e, i)}
 							type="correo-electronico"
 							name="correo"
@@ -112,13 +112,13 @@ const NuevoEvento = ({ evento }) => {
 						/>
 					</div>
 
-					<div className="border rounded p-3">
+					<div className="border border-secondary rounded p-3">
 						<div className="mb-3">
 							<label className="mb-0" htmlFor="direccionCalle">
 								Calle:
 							</label>
 							<input
-								className="border border-primary"
+								className="border"
 								onChange={(e) => handleInputChange(e, i)}
 								type="text"
 								name="direccionCalle"
@@ -132,7 +132,7 @@ const NuevoEvento = ({ evento }) => {
 								Ciudad:
 							</label>
 							<input
-								className="border border-primary"
+								className="border"
 								onChange={(e) => handleInputChange(e, i)}
 								type="text"
 								name="direccionCiudad"
@@ -146,7 +146,7 @@ const NuevoEvento = ({ evento }) => {
 								Estado:
 							</label>
 							<input
-								className="border border-primary"
+								className="border"
 								onChange={(e) => handleInputChange(e, i)}
 								type="text"
 								name="direccionEstado"
@@ -160,7 +160,7 @@ const NuevoEvento = ({ evento }) => {
 								Zip Code:
 							</label>
 							<input
-								className="border border-primary"
+								className="border"
 								onChange={(e) => handleInputChange(e, i)}
 								type="text"
 								name="direccionZipCode"
